@@ -1,0 +1,11 @@
+#include "protheus.ch"
+
+USER FUNCTION STIP001()
+     	
+	dbSelectArea("SZ1")
+	dbSetOrder(1)	 
+	 
+	AxCadastro("SZ1", "Complemento de Credito Cliente", nil, nil)
+
+Return Nil
+ 
