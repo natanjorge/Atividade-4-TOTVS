@@ -13,7 +13,7 @@ Function Main()
     local cUser := "", cSenha := ""
 
     ACCEPT "Digite o nome de usuário: " TO cUser
-    ACCEPT "Digite a velocidade média : " TO cSenha
+    ACCEPT "Digite a senha: " TO cSenha
 
     if !cUser=="NatanJ" .Or. !cSenha=="123321"
 	    QOut("Usuário e/ou senha inválido(s)")
